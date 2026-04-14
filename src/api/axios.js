@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://justeatbackend-gmmd.onrender.com";
+const BASE_URL = "https://justeatbackend-gmmd.onrender.com/api/v1";
 
 const api = axios.create({
   baseURL: BASE_URL,
